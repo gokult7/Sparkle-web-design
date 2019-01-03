@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="professional web design ">
+<meta name="keywords" content="web design ,affordable  web design,top web design">
+<meta name="author" content="gokul">
+<title> Sparkle web design</title>
+<link rel="stylesheet" href="style.css" >
+<body>
+  <script>
+  function myfun(){
+    alert("You have successfully subscribed to out newletters");
+  }
+</script>
+  <header>
+  <div class="container">
+    <div id="branding">
+      <h1> <span class="highlight">Sparkle </span> web studios</h1>
+    </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+        </nav>
+        </div>
+      </header>
+<section id="showcase">
+    <div class="container">
+      <h1>Responsive Web Designs</h1>
+      <p>You will get a stunning responsive website at an affordable cost. One website for desktop, laptop, tablet & mobile devices.</p>
+    </div>
+  </section>
+  <section id="newsletter">
+  <div class="container">
+    <h1>Subscribe to our newsletter</h1>
+      <form>
+  <input type="email" placeholder="enter your email">
+  <button type="submit" class="button1" onclick="myfun()">Subscribe</button>
+</form>
+</div>
+</section>
+<section id="boxes">
+<div class="container">
+  <div class="box">
+    <img src="logo-html.jpg">
+    <h3>HTML5 Markup</h3>
+    <p>HTML5 mobile app development is a recent trend worldwide. Our developers provide specialized services in latest web technologies, fulfilling client's need by using market's trends. </p>
+  </div>
+  <div class="box">
+    <img src="logo-css.png">
+    <h3>CSS3 Styling</h3>
+    <p>We create web sites using CSS3 that can possibly turn potential buyers into buyers just like we have done for more than 500 clients globally. We provide web services for small to Big-sized businesses across the globe.</p>
+  </div>
+  <div class="box">
+    <img src="logo-graphicdesign.png">
+    <h3>Graphic design</h3>
+    <p>Solidify your online presence with a stunningly-looking, functional, custom web design that generates amazing brand engagement, increases conversions, and delivers measurable results.
+
+</p>
+  </div>
+</div>
+</section>
+<footer>
+  <P> Sparkle Web studios	&copy;2018 </p>
+  </footer>
