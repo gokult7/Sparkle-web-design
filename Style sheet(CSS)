@@ -1,0 +1,240 @@
+body{
+	font: 15px/1.5 "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding:0px;
+	margin:0;
+	background-color:#f4f4f;
+}
+/*universal*/
+.container
+{
+	margin: auto;
+	width:80%;
+	overflow:hidden;
+	text-align: center;
+}
+
+.container1
+{
+	margin: auto;
+	width:80%;
+	overflow:hidden;
+
+}
+.button1{
+	height:30px;
+	background: black;
+	border-color:skyblue;
+		color: white;
+
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 3px;
+}
+.dark{
+	padding:18px;
+	background: black;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+/*header part*/
+
+header{
+	background-color: black;
+	color: whitesmoke;
+	padding-top: 30;
+	min-height: 70px;
+	border-bottom: skyblue 3px solid;
+}
+
+header a{
+	color: Grey;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header ul{
+	margin: 0px;
+	padding: 0px;
+		}
+
+header li{
+	float: left;
+	display :inline;
+	padding: 0px 17px 0px 17px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin: 0px;
+}
+
+header nav{
+	float:right;
+  margin-top: 10PX;
+}
+
+header .highlight, header .current a{
+	color:skyblue;
+	font-weight: bold;
+}
+header a:hover{
+	color: darkgrey;
+	font-weight:bold;
+}
+
+/*showcase*/
+#showcase{align:center;
+	min-height: 417px;
+	background: url('lap12.jpg') no-repeat 0 -350PX;
+	color:black;
+	text-align: center;
+}
+
+#showcase h1{
+  margin-top: 100px;
+	font-size: 33px;
+	color: #f5f5f5;
+margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+	color:#f5f5f5;
+
+}
+
+#newsletter{
+	padding:30px;
+	background-color: black;
+	color:white;
+		border-bottom: skyblue 3px solid;
+}
+#newsletter h1{
+	float: left;
+	align:center;
+
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+
+
+}
+
+#newsletter input[type="email"]
+{
+	padding:4px;
+	height:30px;
+	width: 250px;
+	border-radius: 3px;
+}
+
+#boxes{
+
+	margin-top: 20px;
+
+}
+
+#boxes .box{
+		width:30%;
+		float: left;
+		text-align: center;
+		padding: 10px;
+		font-size: 18px;
+}
+#boxes .box img{
+	width:90px;
+}
+
+/* about page*/
+article#main-col{
+float: left;
+width:65%;
+font-size:20px;
+}
+
+aside#sidebar{
+	float: right;
+	width: 30%;
+	font-size:20px;
+
+}
+footer{
+	padding: 20px;
+	margin-top: 10px;
+	color: white;
+	background-color: black;
+	text-align:center;
+		border-top: skyblue 3px solid;
+}
+
+/*services*/
+#col1{
+	padding: 18px;
+	background:#dedede;
+	font-size: 18px;
+	width: 65%;
+	float:left;
+	margin-top: 10px;
+	border-radius: 5px;
+	
+}
+#col2{
+	padding: 15px;
+	background:#dedede;
+	font-size: 18px;
+	width: 65%;
+	float:left;
+	margin-top: 10px;
+	list-style-position: outside;
+	border-radius: 5px;
+
+
+}
+aside#form1{
+	padding: 20px;
+	background: black;
+	color: white;
+	font-size: 18px;
+	width: 25%;
+	float: right;
+	margin-top: 10px;
+
+
+}
+
+aside#form1 .quote input,aside#form1 .quote textarea{
+	width: 90%;
+	padding: 5px;
+
+
+}
+aside#form1 .quote input[type="button"]{
+	margin-top:20px;
+}
+
+@media(max-width:768px){
+	header #branding, header nav,header nav li,#newsletter h1,#newsletter form,#showcase p,#boxes .box,article#col1,aside#form1,article#col2,article#main-col,aside#sidebar{
+		float: none;
+		text-align: center;
+		width:100%;
+	}
+
+header{
+	padding:20px;
+}
+
+#newsletter .button1{
+	display: block;
+	width:100%;
+}
+
+#newsletter form input[type="email"]{
+	width:100%;
+	margin-bottom: 5px;
+}
