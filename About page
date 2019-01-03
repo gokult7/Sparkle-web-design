@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="professional web design ">
+<meta name="keywords" content="web design ,affordable  web design,top web design">
+<meta name="author" content="gokul">
+<title> Sparkle web design</title>
+<link rel="stylesheet" href="style.css" >
+<body>
+  <script>
+  function myfun(){
+    alert("You have successfully subscribed to out newletters");
+  }
+</script>
+  <header>
+  <div class="container">
+    <div id="branding">
+      <h1> <span class="highlight">Sparkle </span> web studios</h1>
+    </div>
+      <nav>
+        <ul>
+          <li ><a href="index.html">Home</a></li>
+          <li class="current"><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+        </nav>
+        </div>
+      </header>
+  <section id="newsletter">
+  <div class="container">
+    <h1>Subscribe to our newsletter</h1>
+      <form>
+  <input type="email" placeholder="enter the email">
+  <button type="submit" class="button1" onclick="myfun()">Subscribe</button>
+</form>
+</div>
+</section>
+<section id="main">
+  <div class="container">
+<article id="main-col">
+   <h1>About us</h1>
+<p>Sparkle web studios is a leading Web Designing Company in Chennai, Tamil Nadu ,India is a registered organization born on 2008. Now, we are one of the largest Web Design Company in Chennai, having a young and dedicated team committed to the permit of excellence.</p>
+
+<p>We provide a quality web design, creative web development services bespoke web applications. We are 100% customer oriented, “customer satisfaction” , “ Customer Friendly” is our major focus. Above all we provide exceptional service and support.</p>
+</article>
+<aside id="sidebar">
+  <div class="dark">
+  <h3>What we do</h3>
+  <p>At Sparkle web studios, we provide Quality website designing, time bound, cost effective and value added services for technology innovative business solutions that require specialized domain expertise. </p>
+</div>
+</aside>
+</div>
+</section>
+<footer>
+  <P> Sparkle Web Design	&copy;2018 </p>
+  </footer>
